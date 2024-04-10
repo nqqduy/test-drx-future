@@ -1,0 +1,113 @@
+app:
+  node_env: NODE_ENV
+  name: APP_NAME
+  port: APP_PORT
+  prefix: APP_PREFIX
+  jwt_access_token_secret: JWT_ACCESS_TOKEN_SECRET
+  jwt_access_token_expiration_time: JWT_ACCESS_TOKEN_EXPIRATION_TIME
+  jwt_refresh_token_secret: JWT_REFRESH_TOKEN_SECRET
+  jwt_refresh_token_expiration_time: JWT_REFRESH_TOKEN_EXPIRATION_TIME
+  signature_ignore: APP_SIGNATURE_IGNORE
+
+master:
+  type: mysql
+  host: MYSQL_HOST
+  port: MYSQL_PORT
+  username: MYSQL_USERNAME
+  password: MYSQL_PASSWORD
+  database: MYSQL_DATABASE
+  logging: false
+  extra:
+    connectionLimit: 10
+
+report:
+  type: mysql
+  host: REPORT_MYSQL_HOST
+  port: REPORT_MYSQL_PORT
+  username: REPORT_MYSQL_USERNAME
+  password: REPORT_MYSQL_PASSWORD
+  database: REPORT_MYSQL_DATABASE
+  logging: false
+  extra:
+    connectionLimit: 10
+
+redis:
+  host: REDIS_HOST
+  port: REDIS_PORT
+
+kafka:
+  brokers: KAFKA_BROKERS
+
+sentry_dns: SENTRY_DNS
+
+# smart contract config
+dex:
+  rpc_host: DEX_RPC_HOST
+  chain_id: DEX_CHAIN_ID
+  address: DEX_ADDRESS
+  matcher_private_key: DEX_MATCHER_PRIVATE_KEY
+  withdrawer_private_key: DEX_WITHDRAWER_PRIVATE_KEY
+  start_block: DEX_START_BLOCK
+  action_batch_size: 1
+  max_in_progress_action: 1
+  block_time_in_ms: BLOCK_TIME
+  block_confirm: BLOCK_CONFIRM
+  default_scale: DEX_DEFAULT_SCALE # default scale (use for margin and position)
+  collateral_decimal: COLLATERAL_DECIMAL # decimal of collateral ERC20
+  running_chain: bscsidechain
+
+sol_dex:
+  rpc_host: 'https://api.devnet.solana.com'
+  program_id: 36NdCTQ9xnzTJG5qS7vax1YjeoNVJhn8goyq4LWD4TSy
+  id: 2171400534401529606
+  matcher_private_key: 5fZFBXNyAiTpBxfMLqbajsnRqTx4tbGkED48FVDXU84XsbU9fWNPqLFpPbP6RZU2RR7ofv6U5FtJKbJ4Spmc4QP5
+  action_batch_size: 1
+  max_in_progress_action: 1
+  block_time_in_ms: 3000
+  default_scale: 6
+  collateral_decimal: 6
+  usdc_id: DdQa77UtH4moveQHHmu9ubMSriXRZVT7mmHPBXPtDuU
+
+insurance:
+  account_id: 1000
+
+matching:
+  position_history_time: 3600000
+  funding_history_time: 3600000
+
+indices:
+  interval: 5000
+
+mail:
+  account: MAIL_ACCOUNT
+  password: MAIL_PASSWORD
+  from_address: MAIL_FROM_ADDRESS
+  from_name: MAIL_FROM_NAME
+  service: MAIL_SERVICE
+  domain: MAIL_DOMAIN
+  enable: true
+  port: MAIL_PORT
+
+health:
+  rpc_host: HEALTH_RPC_HOST
+  namespace: HEALTH_NAMESPACE
+
+coin_info:
+  coingeckoUrl: COINGECKO_URL
+
+secret:
+  key: SECRET_KEY
+
+spot:
+  api_url: SPOT_URL_API
+
+jwt_key:
+  private: JWT_PRIVATE_KEY_ENCODE
+  public: JWT_PUBLIC_KEY_ENCODE
+
+default_margin:
+  margin_mode: DEFAULT_MARGIN_MODE
+  leverage: DEFAULT_LEVERAGE
+
+insurance_account:
+  user_id: DEFAULT_USER_ID_INSURANCE

@@ -1,0 +1,1 @@
+{"version":3,"file":"body-withdraw.dto.js","sourceRoot":"","sources":["../../../../src/modules/account/dto/body-withdraw.dto.ts"],"names":[],"mappings":";;;;AAAA,6CAA8C;AAC9C,qDAAqD;AACrD,0GAAyF;AACzF,6EAA8D;AAE9D,MAAa,aAAa;CAUzB;AANC;IAHC,qBAAW,EAAE;IACb,4BAAU,EAAE;IACZ,kDAAmB,EAAE;;6CACP;AAKf;IAHC,qBAAW,EAAE;IACb,4BAAU,EAAE;IACZ,wBAAM,CAAC,4BAAS,CAAC;;gDACG;AATvB,sCAUC"}

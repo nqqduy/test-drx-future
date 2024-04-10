@@ -1,0 +1,1 @@
+{"version":3,"file":"matching.config.js","sourceRoot":"","sources":["../../src/configs/matching.config.ts"],"names":[],"mappings":";;;AAAA,iCAAiC;AAEjC,MAAM,mBAAmB,GAAG,MAAM,CAAC,MAAM,CAAC,GAAG,CAAS,gCAAgC,CAAC,CAAC,CAAC;AACzF,MAAM,kBAAkB,GAAG,MAAM,CAAC,MAAM,CAAC,GAAG,CAAS,+BAA+B,CAAC,CAAC,CAAC;AAE1E,QAAA,oBAAoB,GAAG;IAClC,mBAAmB;IACnB,kBAAkB;CACnB,CAAC"}

@@ -1,0 +1,35 @@
+import { ContractType, OrderNote, OrderSide, OrderStatus, OrderTimeInForce, OrderTrigger, OrderType, TpSlType } from 'src/shares/enums/order.enum';
+export declare class CreateOrderDto {
+    side: OrderSide;
+    contractType: ContractType;
+    symbol: string;
+    type: OrderType;
+    quantity: string;
+    price: string;
+    remaining: string;
+    executedPrice: string;
+    tpSLType: TpSlType;
+    tpSLPrice: string;
+    stopCondition: string;
+    takeProfitCondition: string;
+    stopLossCondition: string;
+    takeProfit: string;
+    stopLoss: string;
+    trigger: OrderTrigger;
+    timeInForce: OrderTimeInForce;
+    callbackRate: string;
+    activationPrice: string;
+    takeProfitTrigger: OrderTrigger;
+    stopLossTrigger: OrderTrigger;
+    isPostOnly: boolean;
+    asset: string;
+    status: OrderStatus;
+    isHidden: boolean;
+    isReduceOnly: boolean;
+    isMam: boolean;
+    pairType: string;
+    referenceId: number;
+    note: OrderNote;
+    lockPrice: string;
+    orderValue: string;
+}

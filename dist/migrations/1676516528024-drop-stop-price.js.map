@@ -1,0 +1,1 @@
+{"version":3,"file":"1676516528024-drop-stop-price.js","sourceRoot":"","sources":["../../src/migrations/1676516528024-drop-stop-price.ts"],"names":[],"mappings":";;;AAEA,MAAa,0BAA0B;IAC9B,KAAK,CAAC,EAAE,CAAC,WAAwB;QACtC,MAAM,WAAW,CAAC,UAAU,CAAC,QAAQ,EAAE,WAAW,CAAC,CAAC;IACtD,CAAC;IAEM,KAAK,CAAC,IAAI,KAAmB,CAAC;CACtC;AAND,gEAMC"}

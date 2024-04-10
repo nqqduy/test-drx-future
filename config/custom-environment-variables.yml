@@ -1,0 +1,121 @@
+app:
+  node_env: NODE_ENV
+  name: APP_NAME
+  port: APP_PORT
+  prefix: APP_PREFIX
+  jwt_access_token_secret: JWT_ACCESS_TOKEN_SECRET
+  jwt_access_token_expiration_time: JWT_ACCESS_TOKEN_EXPIRATION_TIME
+  jwt_refresh_token_secret: JWT_REFRESH_TOKEN_SECRET
+  jwt_refresh_token_expiration_time: JWT_REFRESH_TOKEN_EXPIRATION_TIME
+  signature_ignore:
+    __name: APP_SIGNATURE_IGNORE
+    __format: json
+
+master:
+  type: mysql
+  host: MYSQL_HOST
+  port: MYSQL_PORT
+  username: MYSQL_USERNAME
+  password: MYSQL_PASSWORD
+  database: MYSQL_DATABASE
+  logging:
+    __name: MYSQL_LOG
+    __format: json
+  extra:
+    __name: MYSQL_EXTRA
+    __format: json
+
+report:
+  type: mysql
+  host: REPORT_MYSQL_HOST
+  port: REPORT_MYSQL_PORT
+  username: REPORT_MYSQL_USERNAME
+  password: REPORT_MYSQL_PASSWORD
+  database: REPORT_MYSQL_DATABASE
+  logging:
+    __name: REPORT_MYSQL_LOG
+    __format: json
+  extra:
+    __name: REPORT_MYSQL_EXTRA
+    __format: json
+
+redis:
+  host: REDIS_HOST
+  port: REDIS_PORT
+
+kafka:
+  brokers: KAFKA_BROKERS
+
+sentry_dns: SENTRY_DNS
+
+# smart contract config
+dex:
+  rpc_host: DEX_RPC_HOST
+  chain_id: DEX_CHAIN_ID
+  address: DEX_ADDRESS
+  matcher_private_key: DEX_MATCHER_PRIVATE_KEY
+  withdrawer_private_key: DEX_WITHDRAWER_PRIVATE_KEY
+  start_block: DEX_START_BLOCK
+  action_batch_size: DEX_ACTION_BATCH_SIZE
+  max_in_progress_action: DEX_MAX_IN_PROGRESS_ACTION
+  block_time_in_ms: BLOCK_TIME
+  block_confirm: BLOCK_CONFIRM
+  default_scale: DEX_DEFAULT_SCALE # default scale (use for margin and position)
+  collateral_decimal: COLLATERAL_DECIMAL # decimal of collateral ERC20
+  running_chain: DEX_RUNNING_CHAIN
+
+sol_dex:
+  rpc_host: SOL_DEX_RPC_HOST
+  program_id: SOL_DEX_PROGRAM_ID
+  id: SOL_DEX_ID
+  matcher_private_key: SOL_DEX_MATCHER_PRIVATE_KEY
+  action_batch_size: DEX_ACTION_BATCH_SIZE
+  max_in_progress_action: DEX_MAX_IN_PROGRESS_ACTION
+  block_time_in_ms: BLOCK_TIME
+  default_scale: DEX_DEFAULT_SCALE
+  collateral_decimal: COLLATERAL_DECIMAL
+  usdc_id: SOL_DEX_USDC_ID
+
+insurance:
+  account_id: INSURANCE_ACCOUNT_ID
+
+matching:
+  position_history_time: POSITION_HISTORY_TIME
+  funding_history_time: FUNDING_HISTORY_TIME
+
+indices:
+  interval: MARKET_DATA_INTERVAL
+
+mail:
+  account: MAIL_ACCOUNT
+  password: MAIL_PASSWORD
+  from_address: MAIL_FROM_ADDRESS
+  from_name: MAIL_FROM_NAME
+  service: MAIL_SERVICE
+  domain: MAIL_DOMAIN
+  enable: MAIL_ENABLE
+  port: MAIL_PORT
+
+health:
+  rpc_host: HEALTH_RPC_HOST
+  namespace: HEALTH_NAMESPACE
+
+coin_info:
+  coingeckoUrl: COINGECKO_URL
+
+secret:
+  key: SECRET_KEY
+
+spot:
+  api_url: SPOT_URL_API
+
+jwt_key:
+  private: JWT_PRIVATE_KEY_ENCODE
+  public: JWT_PUBLIC_KEY_ENCODE
+
+default_margin:
+  margin_mode: DEFAULT_MARGIN_MODE
+  leverage: DEFAULT_LEVERAGE
+
+insurance_account:
+  user_id: DEFAULT_USER_ID_INSURANCE

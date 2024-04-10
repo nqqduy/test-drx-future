@@ -1,0 +1,33 @@
+export declare class MarginHistoryEntity {
+    id: number;
+    accountId: string;
+    action: string;
+    orderId: string;
+    tradeId: string;
+    positionId: string;
+    leverage: string;
+    leverageAfter: string;
+    entryPrice: string;
+    entryPriceAfter: string;
+    entryValue: string;
+    entryValueAfter: string;
+    currentQty: string;
+    currentQtyAfter: string;
+    liquidationPrice: string;
+    liquidationPriceAfter: string;
+    liquidationProgress: number;
+    liquidationProgressAfter: number;
+    pnlRanking: string;
+    pnlRankingAfter: string;
+    openOrderBuyQtyAfter: string;
+    openOrderSellQtyAfter: string;
+    openOrderBuyValueAfter: string;
+    openOrderSellValueAfter: string;
+    balance: string;
+    balanceAfter: string;
+    orderValue: string;
+    contractMargin: string;
+    operationId: string;
+    createdAt: Date;
+    updatedAt: Date;
+}

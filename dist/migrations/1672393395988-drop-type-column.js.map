@@ -1,0 +1,1 @@
+{"version":3,"file":"1672393395988-drop-type-column.js","sourceRoot":"","sources":["../../src/migrations/1672393395988-drop-type-column.ts"],"names":[],"mappings":";;;AAEA,MAAa,2BAA2B;IAC/B,KAAK,CAAC,EAAE,CAAC,WAAwB;QACtC,MAAM,WAAW,CAAC,WAAW,CAAC,aAAa,EAAE,CAAC,MAAM,CAAC,CAAC,CAAC;IACzD,CAAC;IAEM,KAAK,CAAC,IAAI,KAAmB,CAAC;CACtC;AAND,kEAMC"}

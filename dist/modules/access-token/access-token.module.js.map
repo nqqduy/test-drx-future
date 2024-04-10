@@ -1,0 +1,1 @@
+{"version":3,"file":"access-token.module.js","sourceRoot":"","sources":["../../../src/modules/access-token/access-token.module.ts"],"names":[],"mappings":";;;;AAAA,2CAAwC;AACxC,uEAAkE;AAClE,iEAA4D;AAM5D,IAAa,iBAAiB,GAA9B,MAAa,iBAAiB;CAAG,CAAA;AAApB,iBAAiB;IAJ7B,eAAM,CAAC;QACN,SAAS,EAAE,CAAC,yCAAkB,CAAC;QAC/B,WAAW,EAAE,CAAC,+CAAqB,CAAC;KACrC,CAAC;GACW,iBAAiB,CAAG;AAApB,8CAAiB"}

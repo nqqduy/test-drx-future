@@ -1,0 +1,1 @@
+{"version":3,"file":"latest-block.module.js","sourceRoot":"","sources":["../../../src/modules/latest-block/latest-block.module.ts"],"names":[],"mappings":";;;;AAAA,2CAAgD;AAChD,iEAAmF;AAMnF,IAAa,iBAAiB,GAA9B,MAAa,iBAAiB;CAAG,CAAA;AAApB,iBAAiB;IAJ7B,eAAM,CAAC;QACN,SAAS,EAAE,CAAC,yCAAkB,EAAE,eAAM,CAAC;QACvC,OAAO,EAAE,CAAC,yCAAkB,CAAC;KAC9B,CAAC;GACW,iBAAiB,CAAG;AAApB,8CAAiB"}

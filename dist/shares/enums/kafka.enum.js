@@ -1,0 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.KafkaGroups = exports.KafkaTopics = void 0;
+const enumize_1 = require("./enumize");
+exports.KafkaTopics = enumize_1.enumize('orders', 'trades', 'matching_engine_preload', 'matching_engine_input', 'matching_engine_output', 'orderbook_output', 'ticker_engine_preload', 'ticker_engine_output', 'future_referral', 'future_reward_center', 'future_sync_user', 'spot_transfer', 'future_transfer', 'future_reward_referral', 'future_anti_phishing_code', 'future_locale_user', 'future_device_token_user', 'send_mail');
+exports.KafkaGroups = enumize_1.enumize('matching_engine_saver_accounts', 'matching_engine_saver_positions', 'matching_engine_saver_orders', 'matching_engine_saver_trades', 'matching_engine_saver_transactions', 'matching_engine_saver_position_histories', 'matching_engine_saver_funding', 'matching_engine_saver_margin_histories', 'matching_engine_saver_margin_leverage', 'matching_engine_notifier', 'orderbook', 'ticker', 'candles', 'dex_withdrawal', 'dex_action', 'spot_transfer', 'future_sync_user', 'future_transfer', 'future_reward_referral', 'future_anti_phishing_code', 'future_locale_user', 'future_device_token_user', 'send_mail');
+//# sourceMappingURL=kafka.enum.js.map
